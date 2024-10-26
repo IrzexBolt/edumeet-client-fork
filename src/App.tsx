@@ -26,7 +26,7 @@ import LoadingIconImage from "../public/images/loading_icon.png";
 type AppParams = {
   id: string;
 };
-const APP_BACKEND_URL = 'https://stream.breezeshot.com/api-server/api/v1'
+const APP_BACKEND_URL = "https://api.breezeshot.com/api/v1";
 
 interface SnackbarCloseButtonProps {
   snackbarKey: SnackbarKey;
